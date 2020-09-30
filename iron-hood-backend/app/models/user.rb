@@ -4,4 +4,5 @@ class User < ApplicationRecord
 
     has_many :totals 
     has_many :purchased_stocks, through: :totals, source: :stock
+    
 end

@@ -10,9 +10,6 @@ class TransactionsController < ApplicationController
 
         render json: transaction, except: [:updated_at, :created_at] 
 
-        # user = User.all
-
-        # render json: user, except: [:updated_at, :created_at]
     end
     
     private
