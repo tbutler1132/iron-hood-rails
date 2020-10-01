@@ -25,8 +25,8 @@ stock5 = Stock.create(price: 30, company_name: "snapchat", ticker: "SNAP")
 
 
 
-# total1 = Total.create(user_id: user1.id, stock_id: stock2.id, count: 5)
-# total2 = Total.create(user_id: user2.id, stock_id: stock1.id, count: 8)
+total1 = Total.create(user_id: user1.id, stock_id: stock2.id, count: 5)
+total2 = Total.create(user_id: user2.id, stock_id: stock1.id, count: 8)
 
 # transaction2 = Transaction.create(user_id: user1.id, stock_id: stock2.id, transaction_type: 'Sell', stock_count: 8)
 # transaction1 = Transaction.create(user_id: user2.id, stock_id: stock1.id, transaction_type: 'Buy', stock_count: 5)
